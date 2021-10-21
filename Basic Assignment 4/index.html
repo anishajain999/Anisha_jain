@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 4</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous"></head>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+<body>
+    <div class="container-fluid">
+        <div class="wrapper">
+            <div class="p-3 border_top"></div>
+            <div class="row">
+                <div class="col-md-6 left-box text-center">
+                    <h4>Textify <span >Because Text Messaging Rocks</span></h4>
+                </div>
+                <div class="col-md-6 text-right right-box">
+                    <a href="#">Logout</a>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-12 ">
+                    <h1 class="text-center middle-large-box font-weight-bold">(212) 555-1234</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 text-center middle-small-box mt-2 mb-3">
+                    <a class="text-dark" href="#">What is the number?</a>
+                </div>
+            </div>
+            <div class="container large-box">
+                <form action="">
+                    <div class="form-group box1 p-4">
+                        <div class="row">
+                            <div class="col-md-3 text-right box11">
+                                <label for="to" class="to_text">To:</label>
+                            </div>
+                            <div class="col-md-9">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="input-group mb-3 border box12" >
+                                            <input type="text" class="form-control" id="to" name="to">
+                                            <div class="input-group-append">
+                                                <span class="input-group-text"><i class="arrow down"></i></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <h4><span class="sign text-center">&lt;&lt;</span> Phone number or name</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-3 text-right">
+                                <label for="" class="msg_text">Message:</label>
+                            </div>
+                            <div class="col-md-9 ">
+                                <div class="box22a m-0">
+                                    <textarea name="" class="form-control border" id="" cols="50" rows="5"></textarea>
+                                </div>
+                                <div class="box22b">
+                                    <a href="">Attach a photo to this text message</a>
+                                </div>
+                                <div class="box3">
+                                    <div class="row mt-3 mb-3">
+                                        <div class="box31 ml-3">
+                                            <button class="btn p-3 btn-lg">Send Text Message</button>
+                                        </div>
+                                        <div class="box32">
+                                            <p class="p-3">Or,<a href="">schedule it for later delivery</a></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="last_div mt-5">
+            <div class="wrapper">
+                <div class="row">
+                    <div class="col-6">
+                        <ul class="nav nav-tabs justify-content-around "  role="tablist">
+                            <li class="nav-item"><a class="nav-link " role="tab" data-toggle="tab" href="#recent">Recent Conversation</a></li>
+                            <li class="nav-item"><a class="nav-link "  role="tab" data-toggle="tab" href="#all">All Conversation</a></li>
+                            <li class="nav-item "><a class="nav-link active"  role="tab" data-toggle="tab" href="#photos">Photos</a></li>   
+                        </ul>
+                    </div>
+                    <div class="col-6 text-right chng_password">
+                        <a href="" class="">Change Password</a>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-content">
+                <div class="bottom pb-3 tab-pane fade" id="recent">
+                    <div class="wrapper">
+                        <div class="row pt-4 pl-4 heading">
+                            <div class="col-12">
+                                <h4 class="text-md-center">Recent Conversations</h4>
+                            </div>
+                        </div>
+                        
+
+                    </div>
+            </div>
+                <div class="bottom pb-3 tab-pane fade" id="all">
+                    <div class="wrapper">
+                        <div class="row pt-4 pl-4 heading">
+                            <div class="col-12">
+                                <h4 class="text-md-center">All Conversations</h4>
+                            </div>
+                        </div>
+                        
+
+                    </div>
+            </div>
+                <div class="bottom pb-3 tab-pane active" id="photos">
+                    <div class="wrapper">
+                        <div class="row pt-4 pl-4 heading">
+                            <div class="col-12">
+                                <h4 class="text-md-left">Photos From All Conversations</h4>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="photo-row row">
+                            <div class="photo-card">
+                                <div class="photo">
+                                    <img src="assets/image/assignment.jpeg" alt="Image1" class="img-fluid">
+                                </div>
+                                <div class="text"><span class="between black">(508) 555-1234</span></div>
+                                <div class="text-small gray"><span>Sent on 10/10/2020</span></div>
+                            </div>
+                            <div class="photo-card">
+                                <div class="photo">
+                                    <img src="assets/image/assignment.jpeg" alt="Image1" class="img-fluid">
+                                </div>
+                                <div class="text"><span class="between black">(508) 555-1234</span></div>
+                                <div class="text-small gray"><span>Sent on 10/10/2020</span></div>
+                            </div> 
+                            <div class="photo-card">
+                                <div class="photo">
+                                    <img src="assets/image/assignment.jpeg" alt="Image1" class="img-fluid">
+                                </div>
+                                <div class="text"><span class="between black">(508) 555-1234</span></div>
+                                <div class="text-small gray"><span>Sent on 10/10/2020</span></div>
+                            </div> 
+                            <div class="photo-card">
+                                <div class="photo">
+                                    <img src="assets/image/assignment.jpeg" alt="Image1" class="img-fluid">
+                                </div>
+                                <div class="text"><span class="between black">(508) 555-1234</span></div>
+                                <div class="text-small gray"><span>Sent on 10/10/2020</span></div>
+                            </div>
+                            <div class="photo-card">
+                                <div class="photo">
+                                <img src="assets/image/assignment.jpeg" alt="Image1" class="img-fluid">
+                                </div>
+                                <div class="text"><span class="between black">(508) 555-1234</span></div>
+                                <div class="text-small gray"><span>Sent on 10/10/2020</span></div>
+                            </div>
+                            <div class="photo-card">
+                                <div class="photo">
+                                <img src="assets/image/assignment.jpeg" alt="Image1" class="img-fluid">
+                                </div>
+                                <div class="text"><span class="between black">(508) 555-1234</span></div>
+                                <div class="text-small gray"><span>Sent on 10/10/2020</span></div>
+                            </div> 
+                            <div class="photo-card">
+                                <div class="photo">
+                                    <img src="assets/image/assignment.jpeg" alt="Image1" class="img-fluid">
+                                </div>
+                                <div class="text"><span class="between black">(508) 555-1234</span></div>
+                                <div class="text-small gray"><span>Sent on 10/10/2020</span></div>
+                            </div> 
+                            <div class="photo-card">
+                                <div class="photo">
+                                    <img src="assets/image/assignment.jpeg" alt="Image1" class="img-fluid">
+                                </div>
+                                <div class="text"><span class="between black">(508) 555-1234</span></div>
+                                <div class="text-small gray"><span>Sent on 10/10/2020</span></div>
+                            </div>
+                        </div>
+                        <div class="last_btn row">
+                            <div class="col-md-12 text-center">
+                                <button class="btn btn-lg last_btn1" href="#">
+                                    <h4 class="text-center">Load More Photos</h4>
+                                    <p class="text-center">There are 93 more photos across 7 conversations</p>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
