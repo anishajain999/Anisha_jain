@@ -58,6 +58,9 @@ text-decoration-line: underline;
     line-height: 29px;
     text-align: center;
 }
+.box31 button:hover{
+    color: grey;
+}
 
 .box32{
     font-style: normal;
@@ -76,13 +79,12 @@ text-decoration-line: underline;
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
-    line-height: 24px;
+    /* line-height: 24px; */
     /* display: flex; */
-    align-items: center;
-    text-align: right;
+    /* align-items: center; */
+    /* text-align: right; */
     text-decoration-line: underline;
     color: #08317F;
-
 }
 .sign{
     font-size: 16px;
@@ -138,9 +140,8 @@ border: 1px solid #9FB3DA;
 }
 .nav-link{
     color: #111C24;
-}
-.nav-item .active{
-    background-color: #E2ECFF;
+    font-style: normal;
+    font-weight: 500;
 }
 .photo-card {
     padding: 10px;
@@ -165,7 +166,7 @@ font-weight: 600;
 font-size: 20px;
 line-height: 24px;
 color: #111C24;
-margin: 10px auto;
+margin: 10px auto 0;
 }
 .text-small{
     font-style: normal;
@@ -173,7 +174,7 @@ font-weight: 500;
 font-size: 16px;
 line-height: 20px;
 color: #778AAF;
-margin: 10px auto;
+margin: 5px auto 0;
 }
 .last_btn .last_btn1 h4{
     font-style: normal;
@@ -190,3 +191,52 @@ margin: 10px auto;
     line-height: 24px;
     color: #FFFFFF;
 }
+.nav_tab li{
+    margin:auto 10px ;
+}
+/* --- css for desktop/ non responsive layout i.e above 1800px resolution--- */
+
+@media only screen and (max-width: 1799px) {
+    /* --- css for screen resolution below 1800px and upto 1600px--- */
+    .bottom{
+        max-width: 100%;
+    }
+}
+@media only screen and (max-width: 1599px) {
+    /* --- css for screen resolution below 1600px and upto 1366px--- */
+}
+@media only screen and (max-width: 1365px) {
+    /* --- css for screen resolution below 1365px and upto 1280px --- */
+}
+@media only screen and (max-width: 1279px) {
+    /* --- css for screen resolution below 1280px and upto 1170px--- */
+}
+@media only screen and (max-width: 1169px) {
+    /* --- css for screen resolution below 1170px and upto 1024px--- */
+}
+@media only screen and (max-width: 1023px) {
+    /* --- css for screen resolution below 1023px --- */
+    .nav_tab{
+        flex-flow: nowrap;
+        width: calc(100% - 0px);
+        overflow-x: auto;
+    }
+}
+@media only screen and (max-width: 767px) {
+    /* --- css for screen resolution below 768px and upto 576px--- */   
+    .bottom{
+        max-width: 100%;
+    }
+    .nav_tab{
+        flex-flow: nowrap;
+        width: calc(100% - 0px);
+        overflow-x: auto;
+    }
+}
+@media only screen and (max-width: 576px) {
+    /* --- css for screen resolution below 768px and upto 375px--- */
+}
+@media only screen and (max-width: 374px) {
+    /* --- css for screen resolution below 375px and upto 320px--- */
+}
+/* --- note: css should support uptop 320px resultion for mobile and max 1920px resolution for large screens --- */
